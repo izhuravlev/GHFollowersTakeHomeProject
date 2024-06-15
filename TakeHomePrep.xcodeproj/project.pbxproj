@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		BE879E722C1B64BE007DB1CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879E712C1B64BE007DB1CC /* AppDelegate.swift */; };
 		BE879E742C1B64BE007DB1CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879E732C1B64BE007DB1CC /* SceneDelegate.swift */; };
-		BE879E762C1B64BE007DB1CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879E752C1B64BE007DB1CC /* ViewController.swift */; };
-		BE879E792C1B64BE007DB1CC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BE879E782C1B64BE007DB1CC /* Base */; };
 		BE879E7B2C1B64BF007DB1CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE879E7A2C1B64BF007DB1CC /* Assets.xcassets */; };
 		BE879E7E2C1B64BF007DB1CC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BE879E7D2C1B64BF007DB1CC /* Base */; };
+		BE879E862C1B852B007DB1CC /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879E852C1B852B007DB1CC /* SearchVC.swift */; };
+		BE879E882C1B85A8007DB1CC /* FavouritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879E872C1B85A8007DB1CC /* FavouritesListVC.swift */; };
+		BE879E8A2C1BA293007DB1CC /* izButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879E892C1BA293007DB1CC /* izButton.swift */; };
+		BE879E8C2C1BA5AF007DB1CC /* izTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879E8B2C1BA5AF007DB1CC /* izTextField.swift */; };
+		BE879E8E2C1CA759007DB1CC /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879E8D2C1CA759007DB1CC /* FollowerListVC.swift */; };
+		BE879E902C1CB194007DB1CC /* izTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879E8F2C1CB194007DB1CC /* izTitleLabel.swift */; };
+		BE879E922C1CB2FD007DB1CC /* izBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879E912C1CB2FD007DB1CC /* izBodyLabel.swift */; };
+		BE879E942C1CB3B3007DB1CC /* izAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879E932C1CB3B3007DB1CC /* izAlertVC.swift */; };
+		BE879E962C1DEA27007DB1CC /* UiViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879E952C1DEA27007DB1CC /* UiViewController+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BE879E6E2C1B64BE007DB1CC /* TakeHomePrep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeHomePrep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE879E712C1B64BE007DB1CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE879E732C1B64BE007DB1CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BE879E752C1B64BE007DB1CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BE879E782C1B64BE007DB1CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE879E7A2C1B64BF007DB1CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE879E7D2C1B64BF007DB1CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE879E7F2C1B64BF007DB1CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE879E852C1B852B007DB1CC /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		BE879E872C1B85A8007DB1CC /* FavouritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesListVC.swift; sourceTree = "<group>"; };
+		BE879E892C1BA293007DB1CC /* izButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izButton.swift; sourceTree = "<group>"; };
+		BE879E8B2C1BA5AF007DB1CC /* izTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izTextField.swift; sourceTree = "<group>"; };
+		BE879E8D2C1CA759007DB1CC /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
+		BE879E8F2C1CB194007DB1CC /* izTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izTitleLabel.swift; sourceTree = "<group>"; };
+		BE879E912C1CB2FD007DB1CC /* izBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izBodyLabel.swift; sourceTree = "<group>"; };
+		BE879E932C1CB3B3007DB1CC /* izAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izAlertVC.swift; sourceTree = "<group>"; };
+		BE879E952C1DEA27007DB1CC /* UiViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiViewController+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,54 @@
 		BE879E702C1B64BE007DB1CC /* TakeHomePrep */ = {
 			isa = PBXGroup;
 			children = (
+				BE879E9A2C1DEDBF007DB1CC /* Support */,
+				BE879E992C1DED24007DB1CC /* Extensions */,
+				BE879E982C1DECF1007DB1CC /* CustomViews */,
+				BE879E972C1DECBB007DB1CC /* Screens */,
+			);
+			path = TakeHomePrep;
+			sourceTree = "<group>";
+		};
+		BE879E972C1DECBB007DB1CC /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				BE879E852C1B852B007DB1CC /* SearchVC.swift */,
+				BE879E872C1B85A8007DB1CC /* FavouritesListVC.swift */,
+				BE879E8D2C1CA759007DB1CC /* FollowerListVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		BE879E982C1DECF1007DB1CC /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				BE879E932C1CB3B3007DB1CC /* izAlertVC.swift */,
+				BE879E892C1BA293007DB1CC /* izButton.swift */,
+				BE879E8B2C1BA5AF007DB1CC /* izTextField.swift */,
+				BE879E8F2C1CB194007DB1CC /* izTitleLabel.swift */,
+				BE879E912C1CB2FD007DB1CC /* izBodyLabel.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		BE879E992C1DED24007DB1CC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BE879E952C1DEA27007DB1CC /* UiViewController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BE879E9A2C1DEDBF007DB1CC /* Support */ = {
+			isa = PBXGroup;
+			children = (
 				BE879E712C1B64BE007DB1CC /* AppDelegate.swift */,
 				BE879E732C1B64BE007DB1CC /* SceneDelegate.swift */,
-				BE879E752C1B64BE007DB1CC /* ViewController.swift */,
-				BE879E772C1B64BE007DB1CC /* Main.storyboard */,
 				BE879E7A2C1B64BF007DB1CC /* Assets.xcassets */,
 				BE879E7C2C1B64BF007DB1CC /* LaunchScreen.storyboard */,
 				BE879E7F2C1B64BF007DB1CC /* Info.plist */,
 			);
-			path = TakeHomePrep;
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +180,6 @@
 			files = (
 				BE879E7B2C1B64BF007DB1CC /* Assets.xcassets in Resources */,
 				BE879E7E2C1B64BF007DB1CC /* Base in Resources */,
-				BE879E792C1B64BE007DB1CC /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +190,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE879E762C1B64BE007DB1CC /* ViewController.swift in Sources */,
+				BE879E922C1CB2FD007DB1CC /* izBodyLabel.swift in Sources */,
+				BE879E8C2C1BA5AF007DB1CC /* izTextField.swift in Sources */,
+				BE879E862C1B852B007DB1CC /* SearchVC.swift in Sources */,
+				BE879E902C1CB194007DB1CC /* izTitleLabel.swift in Sources */,
+				BE879E962C1DEA27007DB1CC /* UiViewController+Ext.swift in Sources */,
 				BE879E722C1B64BE007DB1CC /* AppDelegate.swift in Sources */,
+				BE879E882C1B85A8007DB1CC /* FavouritesListVC.swift in Sources */,
+				BE879E942C1CB3B3007DB1CC /* izAlertVC.swift in Sources */,
+				BE879E8E2C1CA759007DB1CC /* FollowerListVC.swift in Sources */,
+				BE879E8A2C1BA293007DB1CC /* izButton.swift in Sources */,
 				BE879E742C1B64BE007DB1CC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +207,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BE879E772C1B64BE007DB1CC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE879E782C1B64BE007DB1CC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BE879E7C2C1B64BF007DB1CC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,9 +349,8 @@
 				INFOPLIST_FILE = TakeHomePrep/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +358,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = iz.TakeHomePrep;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,9 +380,8 @@
 				INFOPLIST_FILE = TakeHomePrep/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +389,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = iz.TakeHomePrep;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
