@@ -1,13 +1,13 @@
 //
-//  izButton.swift
+//  izAlertContainer.swift
 //  TakeHomePrep
 //
-//  Created by Ilya Zhuravlev on 2024-06-13.
+//  Created by Ilya Zhuravlev on 2024-06-15.
 //
 
 import UIKit
 
-class izButton: UIButton {
+class izAlertContainer: UIView {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -20,18 +20,17 @@ class izButton: UIButton {
         fatalError("init(coder:) has not been implemented")
     }
     
-    init(backgroundColor: UIColor, title: String) {
+    init() {
         super.init(frame: .zero)
-        self.backgroundColor = backgroundColor
-        self.setTitle(title, for: .normal)
         configure()
     }
     
     private func configure() {
-        layer.cornerRadius      = 10
-        setTitleColor(.white, for: .normal)
-        titleLabel?.font        = UIFont.preferredFont(forTextStyle: .headline)
+        backgroundColor = .systemBackground
+        layer.cornerRadius = 16
+        layer.borderWidth = 2
+        layer.borderColor = UIColor.label.cgColor
         translatesAutoresizingMaskIntoConstraints = false
     }
-    
+
 }

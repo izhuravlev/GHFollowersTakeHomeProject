@@ -20,6 +20,11 @@
 		BE879E922C1CB2FD007DB1CC /* izBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879E912C1CB2FD007DB1CC /* izBodyLabel.swift */; };
 		BE879E942C1CB3B3007DB1CC /* izAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879E932C1CB3B3007DB1CC /* izAlertVC.swift */; };
 		BE879E962C1DEA27007DB1CC /* UiViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879E952C1DEA27007DB1CC /* UiViewController+Ext.swift */; };
+		BE879E9C2C1DF051007DB1CC /* izAlertContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879E9B2C1DF051007DB1CC /* izAlertContainer.swift */; };
+		BE879E9F2C1E0614007DB1CC /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879E9E2C1E0614007DB1CC /* Follower.swift */; };
+		BE879EA12C1E074D007DB1CC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879EA02C1E074D007DB1CC /* User.swift */; };
+		BE879EA42C1E0B11007DB1CC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879EA32C1E0B11007DB1CC /* NetworkManager.swift */; };
+		BE879EA72C1E3B86007DB1CC /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879EA62C1E3B86007DB1CC /* ErrorMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +43,11 @@
 		BE879E912C1CB2FD007DB1CC /* izBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izBodyLabel.swift; sourceTree = "<group>"; };
 		BE879E932C1CB3B3007DB1CC /* izAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izAlertVC.swift; sourceTree = "<group>"; };
 		BE879E952C1DEA27007DB1CC /* UiViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiViewController+Ext.swift"; sourceTree = "<group>"; };
+		BE879E9B2C1DF051007DB1CC /* izAlertContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izAlertContainer.swift; sourceTree = "<group>"; };
+		BE879E9E2C1E0614007DB1CC /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
+		BE879EA02C1E074D007DB1CC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BE879EA32C1E0B11007DB1CC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		BE879EA62C1E3B86007DB1CC /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +80,9 @@
 		BE879E702C1B64BE007DB1CC /* TakeHomePrep */ = {
 			isa = PBXGroup;
 			children = (
+				BE879EA52C1E3B76007DB1CC /* Utilities */,
+				BE879EA22C1E0AF9007DB1CC /* Managers */,
+				BE879E9D2C1E0608007DB1CC /* Models */,
 				BE879E9A2C1DEDBF007DB1CC /* Support */,
 				BE879E992C1DED24007DB1CC /* Extensions */,
 				BE879E982C1DECF1007DB1CC /* CustomViews */,
@@ -81,6 +94,7 @@
 		BE879E972C1DECBB007DB1CC /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				BE879E932C1CB3B3007DB1CC /* izAlertVC.swift */,
 				BE879E852C1B852B007DB1CC /* SearchVC.swift */,
 				BE879E872C1B85A8007DB1CC /* FavouritesListVC.swift */,
 				BE879E8D2C1CA759007DB1CC /* FollowerListVC.swift */,
@@ -91,11 +105,11 @@
 		BE879E982C1DECF1007DB1CC /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
-				BE879E932C1CB3B3007DB1CC /* izAlertVC.swift */,
 				BE879E892C1BA293007DB1CC /* izButton.swift */,
 				BE879E8B2C1BA5AF007DB1CC /* izTextField.swift */,
 				BE879E8F2C1CB194007DB1CC /* izTitleLabel.swift */,
 				BE879E912C1CB2FD007DB1CC /* izBodyLabel.swift */,
+				BE879E9B2C1DF051007DB1CC /* izAlertContainer.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -118,6 +132,31 @@
 				BE879E7F2C1B64BF007DB1CC /* Info.plist */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		BE879E9D2C1E0608007DB1CC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BE879E9E2C1E0614007DB1CC /* Follower.swift */,
+				BE879EA02C1E074D007DB1CC /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BE879EA22C1E0AF9007DB1CC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				BE879EA32C1E0B11007DB1CC /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		BE879EA52C1E3B76007DB1CC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BE879EA62C1E3B86007DB1CC /* ErrorMessage.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,11 +235,16 @@
 				BE879E902C1CB194007DB1CC /* izTitleLabel.swift in Sources */,
 				BE879E962C1DEA27007DB1CC /* UiViewController+Ext.swift in Sources */,
 				BE879E722C1B64BE007DB1CC /* AppDelegate.swift in Sources */,
+				BE879EA12C1E074D007DB1CC /* User.swift in Sources */,
 				BE879E882C1B85A8007DB1CC /* FavouritesListVC.swift in Sources */,
+				BE879E9F2C1E0614007DB1CC /* Follower.swift in Sources */,
 				BE879E942C1CB3B3007DB1CC /* izAlertVC.swift in Sources */,
 				BE879E8E2C1CA759007DB1CC /* FollowerListVC.swift in Sources */,
 				BE879E8A2C1BA293007DB1CC /* izButton.swift in Sources */,
+				BE879EA72C1E3B86007DB1CC /* ErrorMessage.swift in Sources */,
+				BE879EA42C1E0B11007DB1CC /* NetworkManager.swift in Sources */,
 				BE879E742C1B64BE007DB1CC /* SceneDelegate.swift in Sources */,
+				BE879E9C2C1DF051007DB1CC /* izAlertContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,7 +390,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L53JAARJ67;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TakeHomePrep/Info.plist;
+				INFOPLIST_FILE = TakeHomePrep/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -377,7 +421,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L53JAARJ67;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TakeHomePrep/Info.plist;
+				INFOPLIST_FILE = TakeHomePrep/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
