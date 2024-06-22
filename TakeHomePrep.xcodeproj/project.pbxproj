@@ -27,6 +27,7 @@
 		BE879EA72C1E3B86007DB1CC /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879EA62C1E3B86007DB1CC /* ErrorMessage.swift */; };
 		BE879F2E2C261DDE007DB1CC /* izFollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879F2D2C261DDE007DB1CC /* izFollowerCell.swift */; };
 		BE879F302C261E61007DB1CC /* izAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879F2F2C261E61007DB1CC /* izAvatarImageView.swift */; };
+		BE879F322C274798007DB1CC /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879F312C274798007DB1CC /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		BE879EA62C1E3B86007DB1CC /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		BE879F2D2C261DDE007DB1CC /* izFollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izFollowerCell.swift; sourceTree = "<group>"; };
 		BE879F2F2C261E61007DB1CC /* izAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izAvatarImageView.swift; sourceTree = "<group>"; };
+		BE879F312C274798007DB1CC /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				BE879EA62C1E3B86007DB1CC /* ErrorMessage.swift */,
+				BE879F312C274798007DB1CC /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				BE879E8A2C1BA293007DB1CC /* izButton.swift in Sources */,
 				BE879EA72C1E3B86007DB1CC /* ErrorMessage.swift in Sources */,
 				BE879F302C261E61007DB1CC /* izAvatarImageView.swift in Sources */,
+				BE879F322C274798007DB1CC /* UIHelper.swift in Sources */,
 				BE879EA42C1E0B11007DB1CC /* NetworkManager.swift in Sources */,
 				BE879E742C1B64BE007DB1CC /* SceneDelegate.swift in Sources */,
 				BE879E9C2C1DF051007DB1CC /* izAlertContainer.swift in Sources */,

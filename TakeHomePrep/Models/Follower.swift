@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Follower: Codable {
+struct Follower: Codable, Hashable {
     // safe to make them not optional
     var login: String
     var avatarUrl: String
