@@ -24,10 +24,21 @@
 		BE879E9F2C1E0614007DB1CC /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879E9E2C1E0614007DB1CC /* Follower.swift */; };
 		BE879EA12C1E074D007DB1CC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879EA02C1E074D007DB1CC /* User.swift */; };
 		BE879EA42C1E0B11007DB1CC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879EA32C1E0B11007DB1CC /* NetworkManager.swift */; };
-		BE879EA72C1E3B86007DB1CC /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879EA62C1E3B86007DB1CC /* ErrorMessage.swift */; };
 		BE879F2E2C261DDE007DB1CC /* izFollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879F2D2C261DDE007DB1CC /* izFollowerCell.swift */; };
 		BE879F302C261E61007DB1CC /* izAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879F2F2C261E61007DB1CC /* izAvatarImageView.swift */; };
 		BE879F322C274798007DB1CC /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879F312C274798007DB1CC /* UIHelper.swift */; };
+		BE879F3A2C31CAAE007DB1CC /* izEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879F392C31CAAE007DB1CC /* izEmptyStateView.swift */; };
+		BE879F3C2C346540007DB1CC /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879F3B2C346540007DB1CC /* UserInfoVC.swift */; };
+		BE879F3E2C34995F007DB1CC /* IZError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879F3D2C34995F007DB1CC /* IZError.swift */; };
+		BE879F402C34C072007DB1CC /* IZSecondaryLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879F3F2C34C072007DB1CC /* IZSecondaryLabel.swift */; };
+		BE879F442C35B0CB007DB1CC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879F432C35B0CB007DB1CC /* Constants.swift */; };
+		BE879F462C35CD31007DB1CC /* izUserInfoHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879F452C35CD31007DB1CC /* izUserInfoHeaderVC.swift */; };
+		BE879F482C35D4C1007DB1CC /* izItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879F472C35D4C1007DB1CC /* izItemInfoView.swift */; };
+		BE879F4A2C35D8CC007DB1CC /* izItemInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879F492C35D8CC007DB1CC /* izItemInfoVC.swift */; };
+		BE879F4C2C35DB71007DB1CC /* izRepoItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879F4B2C35DB71007DB1CC /* izRepoItemVC.swift */; };
+		BE879F4E2C35DD2B007DB1CC /* izFollowerItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879F4D2C35DD2B007DB1CC /* izFollowerItemVC.swift */; };
+		BE879F512C35E845007DB1CC /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879F502C35E845007DB1CC /* Date+Ext.swift */; };
+		BE879F532C35E860007DB1CC /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879F522C35E860007DB1CC /* String+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,10 +61,21 @@
 		BE879E9E2C1E0614007DB1CC /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		BE879EA02C1E074D007DB1CC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		BE879EA32C1E0B11007DB1CC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		BE879EA62C1E3B86007DB1CC /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		BE879F2D2C261DDE007DB1CC /* izFollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izFollowerCell.swift; sourceTree = "<group>"; };
 		BE879F2F2C261E61007DB1CC /* izAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izAvatarImageView.swift; sourceTree = "<group>"; };
 		BE879F312C274798007DB1CC /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		BE879F392C31CAAE007DB1CC /* izEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izEmptyStateView.swift; sourceTree = "<group>"; };
+		BE879F3B2C346540007DB1CC /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
+		BE879F3D2C34995F007DB1CC /* IZError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IZError.swift; sourceTree = "<group>"; };
+		BE879F3F2C34C072007DB1CC /* IZSecondaryLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IZSecondaryLabel.swift; sourceTree = "<group>"; };
+		BE879F432C35B0CB007DB1CC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BE879F452C35CD31007DB1CC /* izUserInfoHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izUserInfoHeaderVC.swift; sourceTree = "<group>"; };
+		BE879F472C35D4C1007DB1CC /* izItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izItemInfoView.swift; sourceTree = "<group>"; };
+		BE879F492C35D8CC007DB1CC /* izItemInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izItemInfoVC.swift; sourceTree = "<group>"; };
+		BE879F4B2C35DB71007DB1CC /* izRepoItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izRepoItemVC.swift; sourceTree = "<group>"; };
+		BE879F4D2C35DD2B007DB1CC /* izFollowerItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izFollowerItemVC.swift; sourceTree = "<group>"; };
+		BE879F502C35E845007DB1CC /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		BE879F522C35E860007DB1CC /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +126,7 @@
 				BE879E852C1B852B007DB1CC /* SearchVC.swift */,
 				BE879E872C1B85A8007DB1CC /* FavouritesListVC.swift */,
 				BE879E8D2C1CA759007DB1CC /* FollowerListVC.swift */,
+				BE879F3B2C346540007DB1CC /* UserInfoVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -111,13 +134,13 @@
 		BE879E982C1DECF1007DB1CC /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				BE879F382C31CA4B007DB1CC /* Labels */,
+				BE879F372C31CA25007DB1CC /* ViewControllers */,
+				BE879F362C31CA1E007DB1CC /* TextFiles */,
+				BE879F352C31CA18007DB1CC /* ImageViews */,
+				BE879F342C31CA08007DB1CC /* Views */,
+				BE879F332C31C9FF007DB1CC /* Buttons */,
 				BE879F2C2C261DC2007DB1CC /* Cells */,
-				BE879E892C1BA293007DB1CC /* izButton.swift */,
-				BE879E8B2C1BA5AF007DB1CC /* izTextField.swift */,
-				BE879E8F2C1CB194007DB1CC /* izTitleLabel.swift */,
-				BE879E912C1CB2FD007DB1CC /* izBodyLabel.swift */,
-				BE879E9B2C1DF051007DB1CC /* izAlertContainer.swift */,
-				BE879F2F2C261E61007DB1CC /* izAvatarImageView.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -126,6 +149,8 @@
 			isa = PBXGroup;
 			children = (
 				BE879E952C1DEA27007DB1CC /* UiViewController+Ext.swift */,
+				BE879F502C35E845007DB1CC /* Date+Ext.swift */,
+				BE879F522C35E860007DB1CC /* String+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -162,8 +187,9 @@
 		BE879EA52C1E3B76007DB1CC /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				BE879EA62C1E3B86007DB1CC /* ErrorMessage.swift */,
 				BE879F312C274798007DB1CC /* UIHelper.swift */,
+				BE879F3D2C34995F007DB1CC /* IZError.swift */,
+				BE879F432C35B0CB007DB1CC /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -174,6 +200,69 @@
 				BE879F2D2C261DDE007DB1CC /* izFollowerCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		BE879F332C31C9FF007DB1CC /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				BE879E892C1BA293007DB1CC /* izButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		BE879F342C31CA08007DB1CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BE879F392C31CAAE007DB1CC /* izEmptyStateView.swift */,
+				BE879F472C35D4C1007DB1CC /* izItemInfoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BE879F352C31CA18007DB1CC /* ImageViews */ = {
+			isa = PBXGroup;
+			children = (
+				BE879F2F2C261E61007DB1CC /* izAvatarImageView.swift */,
+			);
+			path = ImageViews;
+			sourceTree = "<group>";
+		};
+		BE879F362C31CA1E007DB1CC /* TextFiles */ = {
+			isa = PBXGroup;
+			children = (
+				BE879E8B2C1BA5AF007DB1CC /* izTextField.swift */,
+			);
+			path = TextFiles;
+			sourceTree = "<group>";
+		};
+		BE879F372C31CA25007DB1CC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BE879F4F2C35DD77007DB1CC /* ItemInfoVCs */,
+				BE879E9B2C1DF051007DB1CC /* izAlertContainer.swift */,
+				BE879F452C35CD31007DB1CC /* izUserInfoHeaderVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BE879F382C31CA4B007DB1CC /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				BE879E8F2C1CB194007DB1CC /* izTitleLabel.swift */,
+				BE879E912C1CB2FD007DB1CC /* izBodyLabel.swift */,
+				BE879F3F2C34C072007DB1CC /* IZSecondaryLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		BE879F4F2C35DD77007DB1CC /* ItemInfoVCs */ = {
+			isa = PBXGroup;
+			children = (
+				BE879F492C35D8CC007DB1CC /* izItemInfoVC.swift */,
+				BE879F4B2C35DB71007DB1CC /* izRepoItemVC.swift */,
+				BE879F4D2C35DD2B007DB1CC /* izFollowerItemVC.swift */,
+			);
+			path = ItemInfoVCs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,23 +337,34 @@
 			files = (
 				BE879E922C1CB2FD007DB1CC /* izBodyLabel.swift in Sources */,
 				BE879E8C2C1BA5AF007DB1CC /* izTextField.swift in Sources */,
+				BE879F4E2C35DD2B007DB1CC /* izFollowerItemVC.swift in Sources */,
 				BE879E862C1B852B007DB1CC /* SearchVC.swift in Sources */,
+				BE879F462C35CD31007DB1CC /* izUserInfoHeaderVC.swift in Sources */,
 				BE879F2E2C261DDE007DB1CC /* izFollowerCell.swift in Sources */,
 				BE879E902C1CB194007DB1CC /* izTitleLabel.swift in Sources */,
+				BE879F3E2C34995F007DB1CC /* IZError.swift in Sources */,
 				BE879E962C1DEA27007DB1CC /* UiViewController+Ext.swift in Sources */,
+				BE879F482C35D4C1007DB1CC /* izItemInfoView.swift in Sources */,
 				BE879E722C1B64BE007DB1CC /* AppDelegate.swift in Sources */,
 				BE879EA12C1E074D007DB1CC /* User.swift in Sources */,
 				BE879E882C1B85A8007DB1CC /* FavouritesListVC.swift in Sources */,
+				BE879F4A2C35D8CC007DB1CC /* izItemInfoVC.swift in Sources */,
 				BE879E9F2C1E0614007DB1CC /* Follower.swift in Sources */,
 				BE879E942C1CB3B3007DB1CC /* izAlertVC.swift in Sources */,
+				BE879F4C2C35DB71007DB1CC /* izRepoItemVC.swift in Sources */,
+				BE879F3C2C346540007DB1CC /* UserInfoVC.swift in Sources */,
+				BE879F532C35E860007DB1CC /* String+Ext.swift in Sources */,
 				BE879E8E2C1CA759007DB1CC /* FollowerListVC.swift in Sources */,
 				BE879E8A2C1BA293007DB1CC /* izButton.swift in Sources */,
-				BE879EA72C1E3B86007DB1CC /* ErrorMessage.swift in Sources */,
 				BE879F302C261E61007DB1CC /* izAvatarImageView.swift in Sources */,
+				BE879F3A2C31CAAE007DB1CC /* izEmptyStateView.swift in Sources */,
 				BE879F322C274798007DB1CC /* UIHelper.swift in Sources */,
+				BE879F512C35E845007DB1CC /* Date+Ext.swift in Sources */,
 				BE879EA42C1E0B11007DB1CC /* NetworkManager.swift in Sources */,
 				BE879E742C1B64BE007DB1CC /* SceneDelegate.swift in Sources */,
+				BE879F402C34C072007DB1CC /* IZSecondaryLabel.swift in Sources */,
 				BE879E9C2C1DF051007DB1CC /* izAlertContainer.swift in Sources */,
+				BE879F442C35B0CB007DB1CC /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

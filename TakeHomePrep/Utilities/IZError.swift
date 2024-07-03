@@ -1,8 +1,8 @@
 //
-//  ErrorMessage.swift
+//  IZError.swift
 //  TakeHomePrep
 //
-//  Created by Ilya Zhuravlev on 2024-06-15.
+//  Created by Ilya Zhuravlev on 2024-07-02.
 //
 
 import Foundation
