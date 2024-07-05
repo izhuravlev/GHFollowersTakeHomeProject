@@ -39,6 +39,8 @@
 		BE879F4E2C35DD2B007DB1CC /* izFollowerItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879F4D2C35DD2B007DB1CC /* izFollowerItemVC.swift */; };
 		BE879F512C35E845007DB1CC /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879F502C35E845007DB1CC /* Date+Ext.swift */; };
 		BE879F532C35E860007DB1CC /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879F522C35E860007DB1CC /* String+Ext.swift */; };
+		BE879F552C384D62007DB1CC /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879F542C384D62007DB1CC /* PersistenceManager.swift */; };
+		BE879F572C3856AF007DB1CC /* FavouriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879F562C3856AF007DB1CC /* FavouriteCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +78,8 @@
 		BE879F4D2C35DD2B007DB1CC /* izFollowerItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izFollowerItemVC.swift; sourceTree = "<group>"; };
 		BE879F502C35E845007DB1CC /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		BE879F522C35E860007DB1CC /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		BE879F542C384D62007DB1CC /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		BE879F562C3856AF007DB1CC /* FavouriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				BE879EA32C1E0B11007DB1CC /* NetworkManager.swift */,
+				BE879F542C384D62007DB1CC /* PersistenceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -198,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				BE879F2D2C261DDE007DB1CC /* izFollowerCell.swift */,
+				BE879F562C3856AF007DB1CC /* FavouriteCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -338,6 +344,7 @@
 				BE879E922C1CB2FD007DB1CC /* izBodyLabel.swift in Sources */,
 				BE879E8C2C1BA5AF007DB1CC /* izTextField.swift in Sources */,
 				BE879F4E2C35DD2B007DB1CC /* izFollowerItemVC.swift in Sources */,
+				BE879F572C3856AF007DB1CC /* FavouriteCell.swift in Sources */,
 				BE879E862C1B852B007DB1CC /* SearchVC.swift in Sources */,
 				BE879F462C35CD31007DB1CC /* izUserInfoHeaderVC.swift in Sources */,
 				BE879F2E2C261DDE007DB1CC /* izFollowerCell.swift in Sources */,
@@ -347,6 +354,7 @@
 				BE879F482C35D4C1007DB1CC /* izItemInfoView.swift in Sources */,
 				BE879E722C1B64BE007DB1CC /* AppDelegate.swift in Sources */,
 				BE879EA12C1E074D007DB1CC /* User.swift in Sources */,
+				BE879F552C384D62007DB1CC /* PersistenceManager.swift in Sources */,
 				BE879E882C1B85A8007DB1CC /* FavouritesListVC.swift in Sources */,
 				BE879F4A2C35D8CC007DB1CC /* izItemInfoVC.swift in Sources */,
 				BE879E9F2C1E0614007DB1CC /* Follower.swift in Sources */,
