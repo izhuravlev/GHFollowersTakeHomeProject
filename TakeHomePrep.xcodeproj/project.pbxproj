@@ -20,7 +20,6 @@
 		BE879E922C1CB2FD007DB1CC /* izBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879E912C1CB2FD007DB1CC /* izBodyLabel.swift */; };
 		BE879E942C1CB3B3007DB1CC /* izAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879E932C1CB3B3007DB1CC /* izAlertVC.swift */; };
 		BE879E962C1DEA27007DB1CC /* UiViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879E952C1DEA27007DB1CC /* UiViewController+Ext.swift */; };
-		BE879E9C2C1DF051007DB1CC /* izAlertContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879E9B2C1DF051007DB1CC /* izAlertContainer.swift */; };
 		BE879E9F2C1E0614007DB1CC /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879E9E2C1E0614007DB1CC /* Follower.swift */; };
 		BE879EA12C1E074D007DB1CC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879EA02C1E074D007DB1CC /* User.swift */; };
 		BE879EA42C1E0B11007DB1CC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879EA32C1E0B11007DB1CC /* NetworkManager.swift */; };
@@ -38,10 +37,11 @@
 		BE879F4C2C35DB71007DB1CC /* izRepoItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879F4B2C35DB71007DB1CC /* izRepoItemVC.swift */; };
 		BE879F4E2C35DD2B007DB1CC /* izFollowerItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879F4D2C35DD2B007DB1CC /* izFollowerItemVC.swift */; };
 		BE879F512C35E845007DB1CC /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879F502C35E845007DB1CC /* Date+Ext.swift */; };
-		BE879F532C35E860007DB1CC /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879F522C35E860007DB1CC /* String+Ext.swift */; };
 		BE879F552C384D62007DB1CC /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879F542C384D62007DB1CC /* PersistenceManager.swift */; };
 		BE879F572C3856AF007DB1CC /* FavouriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879F562C3856AF007DB1CC /* FavouriteCell.swift */; };
 		BE879F5A2C386CB9007DB1CC /* izTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879F592C386CB9007DB1CC /* izTabBarController.swift */; };
+		BE879F5C2C38A4F8007DB1CC /* izAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879F5B2C38A4F8007DB1CC /* izAlertContainerView.swift */; };
+		BE879F5E2C38B226007DB1CC /* izDataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE879F5D2C38B226007DB1CC /* izDataLoadingVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,7 +60,6 @@
 		BE879E912C1CB2FD007DB1CC /* izBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izBodyLabel.swift; sourceTree = "<group>"; };
 		BE879E932C1CB3B3007DB1CC /* izAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izAlertVC.swift; sourceTree = "<group>"; };
 		BE879E952C1DEA27007DB1CC /* UiViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiViewController+Ext.swift"; sourceTree = "<group>"; };
-		BE879E9B2C1DF051007DB1CC /* izAlertContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izAlertContainer.swift; sourceTree = "<group>"; };
 		BE879E9E2C1E0614007DB1CC /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		BE879EA02C1E074D007DB1CC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		BE879EA32C1E0B11007DB1CC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -78,10 +77,11 @@
 		BE879F4B2C35DB71007DB1CC /* izRepoItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izRepoItemVC.swift; sourceTree = "<group>"; };
 		BE879F4D2C35DD2B007DB1CC /* izFollowerItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izFollowerItemVC.swift; sourceTree = "<group>"; };
 		BE879F502C35E845007DB1CC /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
-		BE879F522C35E860007DB1CC /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		BE879F542C384D62007DB1CC /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 		BE879F562C3856AF007DB1CC /* FavouriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteCell.swift; sourceTree = "<group>"; };
 		BE879F592C386CB9007DB1CC /* izTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izTabBarController.swift; sourceTree = "<group>"; };
+		BE879F5B2C38A4F8007DB1CC /* izAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izAlertContainerView.swift; sourceTree = "<group>"; };
+		BE879F5D2C38B226007DB1CC /* izDataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izDataLoadingVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +128,6 @@
 		BE879E972C1DECBB007DB1CC /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				BE879E932C1CB3B3007DB1CC /* izAlertVC.swift */,
 				BE879E852C1B852B007DB1CC /* SearchVC.swift */,
 				BE879E872C1B85A8007DB1CC /* FavouritesListVC.swift */,
 				BE879E8D2C1CA759007DB1CC /* FollowerListVC.swift */,
@@ -157,7 +156,6 @@
 			children = (
 				BE879E952C1DEA27007DB1CC /* UiViewController+Ext.swift */,
 				BE879F502C35E845007DB1CC /* Date+Ext.swift */,
-				BE879F522C35E860007DB1CC /* String+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -224,6 +222,7 @@
 			children = (
 				BE879F392C31CAAE007DB1CC /* izEmptyStateView.swift */,
 				BE879F472C35D4C1007DB1CC /* izItemInfoView.swift */,
+				BE879F5B2C38A4F8007DB1CC /* izAlertContainerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -248,8 +247,9 @@
 			isa = PBXGroup;
 			children = (
 				BE879F4F2C35DD77007DB1CC /* ItemInfoVCs */,
-				BE879E9B2C1DF051007DB1CC /* izAlertContainer.swift */,
 				BE879F452C35CD31007DB1CC /* izUserInfoHeaderVC.swift */,
+				BE879E932C1CB3B3007DB1CC /* izAlertVC.swift */,
+				BE879F5D2C38B226007DB1CC /* izDataLoadingVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -358,6 +358,7 @@
 				BE879F572C3856AF007DB1CC /* FavouriteCell.swift in Sources */,
 				BE879E862C1B852B007DB1CC /* SearchVC.swift in Sources */,
 				BE879F462C35CD31007DB1CC /* izUserInfoHeaderVC.swift in Sources */,
+				BE879F5C2C38A4F8007DB1CC /* izAlertContainerView.swift in Sources */,
 				BE879F2E2C261DDE007DB1CC /* izFollowerCell.swift in Sources */,
 				BE879E902C1CB194007DB1CC /* izTitleLabel.swift in Sources */,
 				BE879F3E2C34995F007DB1CC /* IZError.swift in Sources */,
@@ -366,13 +367,13 @@
 				BE879E722C1B64BE007DB1CC /* AppDelegate.swift in Sources */,
 				BE879EA12C1E074D007DB1CC /* User.swift in Sources */,
 				BE879F552C384D62007DB1CC /* PersistenceManager.swift in Sources */,
+				BE879F5E2C38B226007DB1CC /* izDataLoadingVC.swift in Sources */,
 				BE879E882C1B85A8007DB1CC /* FavouritesListVC.swift in Sources */,
 				BE879F4A2C35D8CC007DB1CC /* izItemInfoVC.swift in Sources */,
 				BE879E9F2C1E0614007DB1CC /* Follower.swift in Sources */,
 				BE879E942C1CB3B3007DB1CC /* izAlertVC.swift in Sources */,
 				BE879F4C2C35DB71007DB1CC /* izRepoItemVC.swift in Sources */,
 				BE879F3C2C346540007DB1CC /* UserInfoVC.swift in Sources */,
-				BE879F532C35E860007DB1CC /* String+Ext.swift in Sources */,
 				BE879E8E2C1CA759007DB1CC /* FollowerListVC.swift in Sources */,
 				BE879E8A2C1BA293007DB1CC /* izButton.swift in Sources */,
 				BE879F302C261E61007DB1CC /* izAvatarImageView.swift in Sources */,
@@ -383,7 +384,6 @@
 				BE879E742C1B64BE007DB1CC /* SceneDelegate.swift in Sources */,
 				BE879F5A2C386CB9007DB1CC /* izTabBarController.swift in Sources */,
 				BE879F402C34C072007DB1CC /* IZSecondaryLabel.swift in Sources */,
-				BE879E9C2C1DF051007DB1CC /* izAlertContainer.swift in Sources */,
 				BE879F442C35B0CB007DB1CC /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

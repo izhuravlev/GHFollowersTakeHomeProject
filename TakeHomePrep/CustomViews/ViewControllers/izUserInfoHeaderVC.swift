@@ -31,9 +31,26 @@ class izUserInfoHeaderVC: UIViewController {
         super.viewDidLoad()
         addSubviews()
         layoutUI()
-        configureUIElemenets()
-
-        // Do any additional setup after loading the view.
+        configureUIElements()
+    }
+    
+    func configureUIElements() {
+        downloadAvatarImage()
+        userNameLabel.text      = user.login
+        nameLabel.text          = user.name ?? ""
+        locationLabel.text      = user.location ?? "No Location"
+        bioLabel.text           = user.bio ?? "No Bio Available"
+        bioLabel.numberOfLines  = 3
+        
+        locationImageView.image = SFSymbols.location
+        locationImageView.tintColor = .secondaryLabel
+    }
+    
+    func downloadAvatarImage() {
+        NetworkManager.shared.downloadImage(from: user.avatarUrl) { [weak self] image in
+            guard let self = self else { return }
+            DispatchQueue.main.async { self.avatarImageView.image = image }
+        }
     }
     
     func addSubviews() {
@@ -91,17 +108,5 @@ class izUserInfoHeaderVC: UIViewController {
             bioLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             bioLabel.heightAnchor.constraint(equalToConstant: 70)
         ])
-    }
-    
-    func configureUIElemenets() {
-        avatarImageView.downloadImage(from: user.avatarUrl)
-        userNameLabel.text      = user.login
-        nameLabel.text          = user.name ?? ""
-        locationLabel.text      = user.location ?? "No Location"
-        bioLabel.text           = user.bio ?? "No Bio Available"
-        bioLabel.numberOfLines  = 3
-        
-        locationImageView.image = UIImage(systemName: SFSymbols.location)
-        locationImageView.tintColor = .secondaryLabel
     }
 }

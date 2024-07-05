@@ -9,7 +9,7 @@ import UIKit
 
 class izAlertVC: UIViewController {
     
-    let containerView = izAlertContainer()
+    let containerView = izAlertContainerView()
     let titleLabel = izTitleLabel(textAlignment: .center, fontSize: 20)
     let messageLabel = izBodyLabel(textAlignment: .center)
     let actionButton = izButton(backgroundColor: .systemPink, title: "Okay")
@@ -33,7 +33,7 @@ class izAlertVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.75)
+        view.backgroundColor = UIColor.black.withAlphaComponent(0.75)
         configureContainerView()
         configureTitleLabel()
         configureActionButton()

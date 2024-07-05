@@ -34,8 +34,10 @@ class izTextField: UITextField {
         
         backgroundColor             = .tertiarySystemBackground
         autocorrectionType          = .no
+        spellCheckingType           = .no
+        inputAccessoryView          = .none
         returnKeyType               = .go
+        clearButtonMode             = .whileEditing
         placeholder                 = "Enter a Username"
-        
     }
 }

@@ -39,7 +39,7 @@ class izItemInfoVC: UIViewController {
         view.backgroundColor    = .secondarySystemBackground
     }
     
-    private func  configureStackView() {
+    private func configureStackView() {
         stackView.axis          = .horizontal
         stackView.distribution  = .equalCentering
         

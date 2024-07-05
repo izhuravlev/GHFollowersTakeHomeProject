@@ -8,46 +8,56 @@
 import UIKit
 
 class izEmptyStateView: UIView {
-    
+
     let messageLabel = izTitleLabel(textAlignment: .center, fontSize: 28)
     let imageView = UIImageView()
 
     override init(frame: CGRect) {
         super.init(frame: frame)
-        configure()
+        configureMessageLabel()
+        configureImageView()
     }
-    
+
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
+
     init(message: String) {
         super.init(frame: .zero)
         messageLabel.text = message
-        configure()
+        configureMessageLabel()
+        configureImageView()
     }
-    
-    private func configure() {
+
+    private func configureMessageLabel() {
         addSubview(messageLabel)
-        addSubview(imageView)
-        
         messageLabel.numberOfLines = 3
         messageLabel.textColor = .secondaryLabel
-        
-        imageView.image = UIImage(named: "empty-state-logo")
-        imageView.translatesAutoresizingMaskIntoConstraints = false
-        
+
+        let labelCenterYConstant: CGFloat = DeviceTypes.isiPhoneSE || DeviceTypes.isiPhone8Zoomed ? -100: -150
+        let messageLabelCenterYConstraint = messageLabel.centerYAnchor.constraint(equalTo: self.centerYAnchor, constant: labelCenterYConstant)
+        messageLabelCenterYConstraint.isActive = true
+
         NSLayoutConstraint.activate([
-            messageLabel.centerYAnchor.constraint(equalTo: self.centerYAnchor, constant: -150),
             messageLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 40),
             messageLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -40),
-            messageLabel.heightAnchor.constraint(equalToConstant: 200),
-            
-            imageView.widthAnchor.constraint(equalTo: self.widthAnchor, multiplier: 1.3),
-            imageView.heightAnchor.constraint(equalTo: self.widthAnchor, multiplier: 1.3),
-            imageView.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: 200),
-            imageView.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: 140)
+            messageLabel.heightAnchor.constraint(equalToConstant: 200)
         ])
     }
-    
+
+    private func configureImageView() {
+        addSubview(imageView)
+        imageView.image = Images.emptyState
+        imageView.translatesAutoresizingMaskIntoConstraints = false
+        
+        let logoBottomConstant: CGFloat = DeviceTypes.isiPhoneSE || DeviceTypes.isiPhone8Zoomed ? 120 : 150
+        let logoImageViewBottomConstraint = imageView.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: logoBottomConstant)
+        logoImageViewBottomConstraint.isActive = true
+        
+        NSLayoutConstraint.activate([
+            imageView.widthAnchor.constraint(equalTo: self.widthAnchor, multiplier: 1.3),
+            imageView.heightAnchor.constraint(equalTo: self.widthAnchor, multiplier: 1.3),
+            imageView.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: 170)
+        ])
+    }
 }
